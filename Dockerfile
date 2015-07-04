@@ -30,5 +30,4 @@ RUN install2.r --error \
   xlsx \
   xlsxjars \
   xtable \
-  
 && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
