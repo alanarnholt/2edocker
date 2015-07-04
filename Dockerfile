@@ -20,7 +20,7 @@ RUN install2.r --error \
   nortest \
   PASWR2 \
   repmis \
-  repots \
+  reports \
   shinyAce \
   tables \
   tikzDevice \
