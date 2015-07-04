@@ -31,3 +31,6 @@ RUN install2.r --error \
   xlsxjars \
   xtable \
 && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
+
+# Install PDS
+RUN Rscript -e 'devtools::install_github("alanarnholt/PDS")'
