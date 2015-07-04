@@ -35,3 +35,7 @@ RUN install2.r --error \
 # Install PDS --- comment out to big running out of space?
 # RUN Rscript -e 'devtools::install_github("alanarnholt/PDS")'
 # && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
+
+RUN apt-get update \
+  && apt-get install -y --no-install-recommends \
+    texlive-full \
