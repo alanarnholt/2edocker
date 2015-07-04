@@ -34,3 +34,4 @@ RUN install2.r --error \
 
 # Install PDS
 RUN Rscript -e 'devtools::install_github("alanarnholt/PDS")'
+&& rm -rf /tmp/downloaded_packages/ /tmp/*.rds
